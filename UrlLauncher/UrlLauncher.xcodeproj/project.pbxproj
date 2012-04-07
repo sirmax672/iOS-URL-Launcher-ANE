@@ -1,0 +1,219 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E5F7F2A143C738B00719BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F7F29143C738B00719BA1 /* Foundation.framework */; };
+		8E5F7F38143C743D00719BA1 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5F7F37143C743D00719BA1 /* FlashRuntimeExtensions.h */; };
+		8E5F7F3C143C752500719BA1 /* clauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5F7F3A143C752500719BA1 /* clauncher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E5F7F26143C738B00719BA1 /* libUrlLauncher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUrlLauncher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5F7F29143C738B00719BA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E5F7F2D143C738B00719BA1 /* UrlLauncher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UrlLauncher-Prefix.pch"; sourceTree = "<group>"; };
+		8E5F7F37143C743D00719BA1 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		8E5F7F3A143C752500719BA1 /* clauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = clauncher.m; path = UrlLauncher.xcodeproj/clauncher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E5F7F23143C738B00719BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5F7F2A143C738B00719BA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E5F7F1B143C738A00719BA1 = {
+			isa = PBXGroup;
+			children = (
+				8E5F7F3A143C752500719BA1 /* clauncher.m */,
+				8E5F7F37143C743D00719BA1 /* FlashRuntimeExtensions.h */,
+				8E5F7F2B143C738B00719BA1 /* UrlLauncher */,
+				8E5F7F28143C738B00719BA1 /* Frameworks */,
+				8E5F7F27143C738B00719BA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E5F7F27143C738B00719BA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F7F26143C738B00719BA1 /* libUrlLauncher.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E5F7F28143C738B00719BA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F7F29143C738B00719BA1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E5F7F2B143C738B00719BA1 /* UrlLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F7F2C143C738B00719BA1 /* Supporting Files */,
+			);
+			path = UrlLauncher;
+			sourceTree = "<group>";
+		};
+		8E5F7F2C143C738B00719BA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F7F2D143C738B00719BA1 /* UrlLauncher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8E5F7F24143C738B00719BA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5F7F38143C743D00719BA1 /* FlashRuntimeExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8E5F7F25143C738B00719BA1 /* UrlLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5F7F30143C738B00719BA1 /* Build configuration list for PBXNativeTarget "UrlLauncher" */;
+			buildPhases = (
+				8E5F7F22143C738B00719BA1 /* Sources */,
+				8E5F7F23143C738B00719BA1 /* Frameworks */,
+				8E5F7F24143C738B00719BA1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UrlLauncher;
+			productName = UrlLauncher;
+			productReference = 8E5F7F26143C738B00719BA1 /* libUrlLauncher.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E5F7F1D143C738A00719BA1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8E5F7F20143C738A00719BA1 /* Build configuration list for PBXProject "UrlLauncher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E5F7F1B143C738A00719BA1;
+			productRefGroup = 8E5F7F27143C738B00719BA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E5F7F25143C738B00719BA1 /* UrlLauncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E5F7F22143C738B00719BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5F7F3C143C752500719BA1 /* clauncher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E5F7F2E143C738B00719BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E5F7F2F143C738B00719BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8E5F7F31143C738B00719BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/UrlLauncher.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UrlLauncher/UrlLauncher-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E5F7F32143C738B00719BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/UrlLauncher.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UrlLauncher/UrlLauncher-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E5F7F20143C738A00719BA1 /* Build configuration list for PBXProject "UrlLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5F7F2E143C738B00719BA1 /* Debug */,
+				8E5F7F2F143C738B00719BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5F7F30143C738B00719BA1 /* Build configuration list for PBXNativeTarget "UrlLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5F7F31143C738B00719BA1 /* Debug */,
+				8E5F7F32143C738B00719BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E5F7F1D143C738A00719BA1 /* Project object */;
+}

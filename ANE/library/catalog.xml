@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.5.1" build="21328" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="_0b85c3d50f388dda274b550123ce239952dd5f941f7f16bd354c147593f02e36_flash_display_Sprite" mod="1317816741520" signatureChecksum="2524150043" >
+        <def id="_0b85c3d50f388dda274b550123ce239952dd5f941f7f16bd354c147593f02e36_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="ru/flexis/mpavlov/urllauncher/URLLauncher" mod="1317816726000" signatureChecksum="1534671050" >
+        <def id="ru.flexis.mpavlov.urllauncher:URLLauncher" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="bf7865dd43470f6f751b02293c5119b36c66cf86a2aec839f7d1bb597a49deae"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>
